@@ -27,12 +27,6 @@ class Application(Frame):
         # Label with instruction
         Label(self, text='Push the button to turn on or off LED').grid(row=0, column=0, columnspan=3, sticky=W)
 
-
-
-
-
-
-
         # green LED label
         self.gLabel = Label(self, text='green LED is off')
         self.gLabel.grid(row=1, column=0, sticky=W)
